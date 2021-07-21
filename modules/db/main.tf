@@ -10,11 +10,11 @@ locals {
 module "terraform-aws-rds-source" {
   source = "git@github.com:terraform-aws-modules/terraform-aws-rds.git?ref=v3.0.0"
 
-  identifier = "mysql-source"
+  identifier = "mysql-group-source"
 
   engine         = "mysql"
   engine_version = "5.7"
-  instance_class = "db.t3.micro"
+  instance_class = "db.t2.micro"
 
   allocated_storage     = 50
   max_allocated_storage = 100
@@ -45,11 +45,11 @@ output "rds_endpoint" {
 module "terraform-aws-rds-read" {
   source = "git@github.com:terraform-aws-modules/terraform-aws-rds.git?ref=v3.0.0"
 
-  identifier = "mysql-read"
+  identifier = "mysql-group-read"
 
   engine         = "mysql"
   engine_version = "5.7"
-  instance_class = "db.t3.micro"
+  instance_class = "db.t2.micro"
 
   allocated_storage     = 50
   max_allocated_storage = 100
