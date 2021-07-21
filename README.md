@@ -30,7 +30,7 @@ an Auto Scaling group and is responding to a spike in load. If the instance take
 1. 3 Security Groups
 2. 2 Running Instance in ASG
 3. 2 Volumes
-4. 2 RDS(Primary & Replica)
+4. 2 RDS(Primary & Replica) 
 
 
   
