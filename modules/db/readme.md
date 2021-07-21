@@ -1,4 +1,3 @@
-DATABASE
 This module focuses onto Database configurations. Here, MySQL has been used whose engine version is 5.7.
 It is running on Port 3306. The backup retention period is set to 10 days.
 
