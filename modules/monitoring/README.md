@@ -10,6 +10,7 @@ In the user-data.sh file you'll get a deep insight of the configurations being m
 Thereby script mentions the various executions 
 
 Grafana Intallation and desired configurations done as follows:
+
 sudo yum install -y grafana
 
 sudo systemctl daemon-reload
