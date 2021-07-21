@@ -8,3 +8,11 @@ This module aims to implement ALL combinations of arguments supported by AWS and
 
 Conditionally create security group and/or all required security group rules.
 Ingress and egress rules can be configured in a variety of ways. See inputs section for all supported arguments and complete example for the complete use-case.
+
+
+Here we are using three modules.
+1.vpc module
+   name = local.name
+   Here name is a variable.
+2.security module
+3.security rds module
