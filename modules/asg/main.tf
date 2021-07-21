@@ -29,7 +29,7 @@ module "aws_autoscaling_group" {
   use_lt      = true
   create_lt   = true
 
-  image_id      = "ami-090717c950a5c34d3"
+  image_id      = "ami-0dc2d3e4c0f9ebd18"
   instance_type = "t2.micro"
   key_name      = "group-testing"
   #user_data_base64 = base64encode(local.user_data)
