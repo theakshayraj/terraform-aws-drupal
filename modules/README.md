@@ -128,23 +128,22 @@
 
 <details>
   <summary><b>Variables</b></summary>
- ```
+ 
+  ```
 1.vpc_name             : Inputs the vpc name.
 2. security_groups     : Inputs a list of security group ID's from network's 'security_group_id_asg' module  
-
-  ```
+ ```
 </details>
 
 <details>
   <summary><b>Constants</b></summary>
   
-```
+  ```
   1. cidr  : #cidr address
   2. egress port : #0-65535 open internet
   3. ingress port : #80 , 8080 , 2049 etc.
-  
+  ```
 
-```
 </details>
 
 <details>
