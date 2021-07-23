@@ -2,35 +2,20 @@
 <img align="left" alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
 <img align="right" alt="Terraform" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg"  width="300">
 <p align="center"><img align="middle" width="160" height="96" alt="AWS" src="https://user-images.githubusercontent.com/42437393/126828661-63749f56-2bd4-4447-9225-f41dd737025b.png"></p>
-
-
-
-
-
-
-
-<br/><br/>
-
-
+<br>
 
 # Drupal Deployment on AWS using Terraform 
 
 <p align="center">
-<a href="https://img.shields.io/badge/autoscaling-v4.1.0-%23c7c91c">
-<img src="https://img.shields.io/badge/autoscaling-v4.1.0-%23c7c91c" /></a>
+<a href="https://img.shields.io/badge/drupal-v9.2.2-009cde">
+<img src="https://img.shields.io/badge/drupal-v9.2.2-009cde" /></a>
+  
+<a href="https://img.shields.io/badge/aws-v3.37.0-FF9900">
+<img src="https://img.shields.io/badge/aws-v3.37.0-FF9900" /></a> 
+  
+<a href="https://img.shields.io/badge/terraform-v0.15.0-844FBA">
+<img src="https://img.shields.io/badge/terraform-v0.15.0-844FBA" /></a>
 
-<a href="https://img.shields.io/badge/alb-v6.0.0-%238c66d9">
-<img src="https://img.shields.io/badge/alb-v6.0.0-%238c66d9" /></a>
-<a href="https://img.shields.io/badge/terraform--aws--rds--source-v3.0.0-ff69b4">
-<img src="https://img.shields.io/badge/terraform--aws--rds--source-v3.0.0-ff69b4" /></a>
-<a href="https://img.shields.io/badge/terraform--aws--rds--read-v3.0.0-ad7521">
-<img src="https://img.shields.io/badge/terraform--aws--rds--read-v3.0.0-ad7521" /></a>
-<a href="https://img.shields.io/badge/vpc-v3.2.0-red">
-<img src="https://img.shields.io/badge/vpc-v3.2.0-red" /></a>
-<a href="https://img.shields.io/badge/security__group__asg-v4.0.0-brightgreen">
-<img src="https://img.shields.io/badge/security__group__asg-v4.0.0-brightgreen" /></a>
-<a href="https://img.shields.io/badge/security__group__rds-v4.0.0-important">
-<img src="https://img.shields.io/badge/security__group__rds-v4.0.0-important" /></a><br/>
 </p>
 
 
@@ -45,7 +30,7 @@
 
 
 
-<br/><br/>
+<br/>
 
 Drupal :- Drupal is an open source content management platform supporting a variety of
 websites ranging from personal weblogs to large community-driven websites. For
