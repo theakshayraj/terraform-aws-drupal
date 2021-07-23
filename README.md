@@ -12,10 +12,6 @@
 
 
 
-
-
-
-
 # Drupal Deployment on AWS using Terraform 
 
 
