@@ -8,11 +8,23 @@
 
 
 
+
+
+
+
+
+
+
+
+# Drupal Deployment on AWS using Terraform 
+
+
 <a href="https://img.shields.io/badge/autoscaling-v4.1.0-%23c7c91c">
 <img src="https://img.shields.io/badge/autoscaling-v4.1.0-%23c7c91c" /></a>
 
 <a href="https://img.shields.io/badge/alb-v6.0.0-%238c66d9">
 <img src="https://img.shields.io/badge/alb-v6.0.0-%238c66d9" /></a>
+
 
 <a href="https://img.shields.io/badge/terraform--aws--rds--source-v3.0.0-ff69b4">
 <img src="https://img.shields.io/badge/terraform--aws--rds--source-v3.0.0-ff69b4" /></a>
@@ -29,16 +41,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-# Drupal Deployment on AWS using Terraform 
 
 Drupal :- Drupal is an open source content management platform supporting a variety of
 websites ranging from personal weblogs to large community-driven websites. For
