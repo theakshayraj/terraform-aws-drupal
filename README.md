@@ -1,9 +1,7 @@
 
 <img align="left" alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
-<img align="right" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg"  width="300">
-<img align="center" width="400" height="240" src="https://user-images.githubusercontent.com/42437393/126828661-63749f56-2bd4-4447-9225-f41dd737025b.png">
-
-
+<img align="right" alt="Terraform" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg"  width="300">
+<img align="center" width="160" height="96" alt="AWS" src="https://user-images.githubusercontent.com/42437393/126828661-63749f56-2bd4-4447-9225-f41dd737025b.png">
 
 
 
@@ -234,8 +232,3 @@ an Auto Scaling group and is responding to a spike in load. If the instance take
 ```
 </details>
 
-
-
-  
-README.md
-Displaying README.md.
