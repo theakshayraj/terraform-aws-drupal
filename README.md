@@ -1,7 +1,7 @@
 
-<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
-<img src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg" align="right" width="300">
-<img src="https://docs.aws.amazon.com/assets/images/aws_logo_dark.png" align="left" width="300">
+<img align="right" alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px"><br/>
+<img align="right" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg" align="right" width="300"><br/>
+<img align="right" width="50" height="50" src="https://docs.aws.amazon.com/assets/images/aws_logo_dark.png" align="left" width="300">
 
 
 
@@ -61,7 +61,7 @@ AWS:- Deploying Drupal on AWS makes it easy to use AWS services to further enhan
 The goal of this project is to host Drupal site on AWS via Terraform  it's a cross-platform, extensible tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
 
-# What are we trying to implement?
+## What are we trying to implement?
 
 A virtual private cloud (VPC) that is configured across two Availability Zones. For each Availability Zone, this Quick Start provisions one public subnet and one private subnet, according to AWS best practices.
 
@@ -82,17 +82,17 @@ Out-of-box integration with load balancing and performance monitoring to be able
 
 
 #### The different areas taken into account involves:
-- 1. Application Load Balancer with Autoscaling 
-- 2. MySql Database
-- 3. Monitoring using Prometheus and Grafana
+-  Application Load Balancer with Autoscaling 
+-  MySql Database
+-  Monitoring using Prometheus and Grafana
 
 Also, a dedicated module named Network aims to provide desired information to implement all combinations of arguments supported by AWS and latest stable version of Terraform
 
 ## Requirements
 
-- 1. Install Terraform
-- 2. Sign up for AWS 
-- 3. A valid AMI, followed by next section
+-  Install Terraform
+- Sign up for AWS 
+- A valid AMI, followed by next section
 
 ## AMI
 If you run AWS EC2 instances in AWS, then you are probably familiar with the concept of pre-baking Amazon Machine Images (AMIs). 
