@@ -1,7 +1,7 @@
 
-<img align="right" alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px"><br/>
-<img align="right" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg" align="right" width="300"><br/>
-<img align="right" width="50" height="50" src="https://docs.aws.amazon.com/assets/images/aws_logo_dark.png" align="left" width="300">
+<img align="left" alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
+<img align="center" src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg"  width="300">
+<img align="right" width="100" height="100" src="https://docs.aws.amazon.com/assets/images/aws_logo_dark.png">
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-
+<br/><br/>
 
 
 
