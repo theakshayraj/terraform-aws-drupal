@@ -15,6 +15,7 @@
 
 # Drupal Deployment on AWS using Terraform 
 
+<p align="center">
 <a href="https://img.shields.io/badge/autoscaling-v4.1.0-%23c7c91c">
 <img src="https://img.shields.io/badge/autoscaling-v4.1.0-%23c7c91c" /></a>
 
@@ -30,7 +31,7 @@
 <img src="https://img.shields.io/badge/security__group__asg-v4.0.0-brightgreen" /></a>
 <a href="https://img.shields.io/badge/security__group__rds-v4.0.0-important">
 <img src="https://img.shields.io/badge/security__group__rds-v4.0.0-important" /></a><br/>
-
+</p>
 
 
 
