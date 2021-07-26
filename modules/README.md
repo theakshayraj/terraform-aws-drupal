@@ -31,16 +31,7 @@
 ```
 </details>
 
-<details>
-  <summary><b>Constants</b></summary>
-  
-```
-1. min_size = 1                  #Minimun size of autoscaling group
-2. max_size = 5                  #Maximum size of autoscaling group
-3. desired_capacity = 2          #Number of concurrently running EC2 instances   
-4. instance_type = "t2.micro"    #The type of the instance to launch
-```
-</details>
+
 
 <a id='mod2'></a>
 ## Module 2: Application Load Balancer
@@ -60,16 +51,7 @@
 ```
 </details>
 
-<details>
-  <summary><b>Constants</b></summary>
-  
-```
-1. load_balancer_type = "application"         #Type of load balancer to create (application/network)
-2. target_groups.backend_protocol = "HTTP"    #Protocol to be used by target groups
-3. target_groups.backend_port = 80            #Port to be used by the target groups   
-4. target_groups.target_type = "instance"     #Type of target group
-```
-</details>
+
 
 <details>
   <summary><b>Outputs</b></summary>
@@ -98,9 +80,11 @@
 </details>
 
 <details>
-  <summary><b>Constants</b></summary>
+  <summary><b>Secrets</b></summary>
   
 ```
+ 1.  Username:
+ 2.  Password:
 
 ```
 </details>
@@ -135,16 +119,6 @@
  ```
 </details>
 
-<details>
-  <summary><b>Constants</b></summary>
-  
-  ```
-  1. cidr  : #cidr address
-  2. egress port : #0-65535 open internet
-  3. ingress port : #80 , 8080 , 2049 etc.
-  ```
-
-</details>
 
 <details>
   <summary><b>Outputs</b></summary>
