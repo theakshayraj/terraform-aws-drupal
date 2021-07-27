@@ -82,6 +82,10 @@ an Auto Scaling group and is responding to a spike in load. If the instance take
 
 ## PACKER WORKFLOW
 
+<a href="https://www.packer.io">
+    <img alt="HashiCorp Packer logo" src="website/public/img/logo-packer-padded.svg" width="500" />
+  </a>
+
 Packer is a tool for building identical machine images for multiple platforms
 from a single source configuration.
 
