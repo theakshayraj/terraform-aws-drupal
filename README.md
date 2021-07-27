@@ -17,12 +17,6 @@
 <img src="https://img.shields.io/badge/terraform-v0.15.0-844FBA" /></a>
 
 </p>
-
-
-
-
-
-
 <br/>
 
 **DRUPAL** :- Drupal is an open source content management platform supporting a variety of
@@ -67,11 +61,19 @@ Also, a dedicated module named Network aims to provide desired information to im
 
 ## Requirements
 
-- Install Terraform
 - Sign up for AWS 
 - Make 
+```bash
+  yum install make
+```
 - Packer
+```bash
+  yum install https://releases.hashicorp.com/packer/1.5.1/packer_1.5.1_linux_amd64.zip
+```
 - Terraform
+```bash
+  yum install https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip
+```
 
 ## AMI
 If you run AWS EC2 instances in AWS, then you are probably familiar with the concept of pre-baking Amazon Machine Images (AMIs).
