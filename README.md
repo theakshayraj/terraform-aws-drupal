@@ -25,12 +25,15 @@
 
 <br/>
 
-Drupal :- Drupal is an open source content management platform supporting a variety of
+**Drupal** :- Drupal is an open source content management platform supporting a variety of
 websites ranging from personal weblogs to large community-driven websites. 
 
-Terraform:-Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+**Terraform**:-Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
 
-AWS:- Deploying Drupal on AWS makes it easy to use AWS services to further enhance the performance and extend functionality of your content management framework.
+**AWS**:- Deploying Drupal on AWS makes it easy to use AWS services to further enhance the performance and extend functionality of your content management framework.
+
+**PACKER**:-Packer is a tool for building identical machine images for multiple platforms from a single source configuration.
+
 
 The goal of this project is to host Drupal site on AWS via Terraform  it's a cross-platform, extensible tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
@@ -69,37 +72,40 @@ Also, a dedicated module named Network aims to provide desired information to im
 - A valid AMI, followed by next section
 
 ## AMI
-If you run AWS EC2 instances in AWS, then you are probably familiar with the concept of pre-baking Amazon Machine Images (AMIs). 
+If you run AWS EC2 instances in AWS, then you are probably familiar with the concept of pre-baking Amazon Machine Images (AMIs).
+Herein , AMI has been built using Packer wherein PHP and Nginx are preconfigured.
 That is, preloading all needed software and configuration on an EC2 instance, then creating an image of that. The resulting image
 can then be used to launch new instances with all software and configuration pre-loaded. This process allows the EC2 instance to come 
 online and be available quickly. It not only simplifies deployment of new instances but is especially useful when an instance is part of 
 an Auto Scaling group and is responding to a spike in load. If the instance takes too long to be ready, it defeats the purpose of dynamic scaling.
 
-# MAKE Command: 
+
+### MODULE WORKFLOW
+
+
+
+###
+
+```bash
+1.make fix:-This list down the errors and one may fix them via the file designed in a particular format
+2.make validate:-used to validate the syntax and configuration of a template. 
+3.make build:-takes a template and runs all the builds within it in order to generate a set of artifacts.
+4.make init:-used to initialize a working directory containing Terraform configuration files.
+5.make plan:-used to creates an execution plan. 
+6.make apply:-command executes the actions proposed in a Terraform plan.
+7.make destroy:-command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
+```
+
+## MAKE Command: 
+
+Makefile command is used in order to "tell what to do".
+Herein we've been using make to build AMI. Detailed usage is listed in the AMI section above.
 
 ## Summary of Resources
 -  3 Security Groups
 -  2 Running Instance in ASG
 -  1 RDS(Primary)
 
-## MODULE WORKFLOW
 
 
-Packer is a tool for building identical machine images for multiple platforms
-from a single source configuration.
-
-
-## 
-
-To deploy this project run
-
-```bash
-1.packer fix:-command takes a template and finds backwards incompatible parts of it and brings it up to date so it can be used with the latest version of Packer. 
-2.packer validate:-used to validate the syntax and configuration of a template. 
-3.packer build:-takes a template and runs all the builds within it in order to generate a set of artifacts.
-4.terraform init:-used to initialize a working directory containing Terraform configuration files.
-5.terraform plan:-used to creates an execution plan. 
-6.terraform apply:-command executes the actions proposed in a Terraform plan.
-7.terraform destroy:-command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
-```
 
