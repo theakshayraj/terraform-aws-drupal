@@ -75,12 +75,14 @@ can then be used to launch new instances with all software and configuration pre
 online and be available quickly. It not only simplifies deployment of new instances but is especially useful when an instance is part of 
 an Auto Scaling group and is responding to a spike in load. If the instance takes too long to be ready, it defeats the purpose of dynamic scaling.
 
+# MAKE Command: 
+
 ## Summary of Resources
 -  3 Security Groups
 -  2 Running Instance in ASG
--  2 RDS(Primary & Replica) 
+-  1 RDS(Primary)
 
-## PACKER WORKFLOW
+## MODULE WORKFLOW
 
 
 Packer is a tool for building identical machine images for multiple platforms
@@ -94,7 +96,7 @@ To deploy this project run
 ```bash
 1.packer fix:-command takes a template and finds backwards incompatible parts of it and brings it up to date so it can be used with the latest version of Packer. 
 2.packer validate:-used to validate the syntax and configuration of a template. 
-3.packer build-debug:-takes a template and runs all the builds within it in order to generate a set of artifacts.
+3.packer build:-takes a template and runs all the builds within it in order to generate a set of artifacts.
 4.terraform init:-used to initialize a working directory containing Terraform configuration files.
 5.terraform plan:-used to creates an execution plan. 
 6.terraform apply:-command executes the actions proposed in a Terraform plan.
