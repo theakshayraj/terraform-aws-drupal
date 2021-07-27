@@ -80,3 +80,23 @@ an Auto Scaling group and is responding to a spike in load. If the instance take
 -  2 Running Instance in ASG
 -  2 RDS(Primary & Replica) 
 
+## PACKER WORKFLOW
+
+Packer is a tool for building identical machine images for multiple platforms
+from a single source configuration.
+
+
+## 
+
+To deploy this project run
+
+```bash
+1.packer fix:-command takes a template and finds backwards incompatible parts of it and brings it up to date so it can be used with the latest version of Packer. 
+2.packer validate:-used to validate the syntax and configuration of a template. 
+3.packer build-debug:-takes a template and runs all the builds within it in order to generate a set of artifacts.
+4.terraform init:-used to initialize a working directory containing Terraform configuration files.
+5.terraform plan:-used to creates an execution plan. 
+6.terraform apply:-command executes the actions proposed in a Terraform plan.
+7.terraform destroy:-command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
+```
+
