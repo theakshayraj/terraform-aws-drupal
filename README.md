@@ -82,13 +82,13 @@ an Auto Scaling group and is responding to a spike in load. If the instance take
 
 ## MODULE WORKFLOW
 
-`make fix`:- This list down the errors and one may fix them via the file designed in a particular format
-`make validate`:- used to validate the syntax and configuration of a template. 
-`make build`:- takes a template and runs all the builds within it in order to generate a set of artifacts.
-`make init`:- used to initialize a working directory containing Terraform configuration files.
-`make plan`:- used to creates an execution plan. 
-`make apply`:- command executes the actions proposed in a Terraform plan.
-`make destroy`:- command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
+- `make fix`:- This list down the errors and one may fix them via the file designed in a particular format
+- `make validate`:- used to validate the syntax and configuration of a template. 
+- `make build`:- takes a template and runs all the builds within it in order to generate a set of artifacts.
+- `make init`:- used to initialize a working directory containing Terraform configuration files.
+- `make plan`:- used to creates an execution plan. 
+- `make apply`:- command executes the actions proposed in a Terraform plan.
+- `make destroy`:- command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
 
 ## MAKE Command: 
 `make` command is used in order to "tell what to do". 
