@@ -25,10 +25,10 @@
 
 <br/>
 
-**Drupal** :- Drupal is an open source content management platform supporting a variety of
+**DRUPAL** :- Drupal is an open source content management platform supporting a variety of
 websites ranging from personal weblogs to large community-driven websites. 
 
-**Terraform**:-Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+**TERRAFORM**:-Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
 
 **AWS**:- Deploying Drupal on AWS makes it easy to use AWS services to further enhance the performance and extend functionality of your content management framework.
 
