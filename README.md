@@ -67,9 +67,11 @@ Also, a dedicated module named Network aims to provide desired information to im
 
 ## Requirements
 
--  Install Terraform
+- Install Terraform
 - Sign up for AWS 
-- A valid AMI, followed by next section
+- Make 
+- Packer
+- Terraform
 
 ## AMI
 If you run AWS EC2 instances in AWS, then you are probably familiar with the concept of pre-baking Amazon Machine Images (AMIs).
