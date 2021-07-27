@@ -107,6 +107,9 @@
 
 <a id='mod4'></a>
 ## Module 4: Monitoring
+<a href="https://img.shields.io/badge/monitoring-grafana-green">
+<img src="https://img.shields.io/badge/monitoring-grafana-green" /></a>  
+
 <details>
   <summary><b>Variables</b></summary>
   
