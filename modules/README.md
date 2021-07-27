@@ -10,7 +10,11 @@
 
 [**Module 3**](#mod3): Database
 
-[**Module 4**](#mod4): Network Configurations
+[**Module 4**](#mod4): Monitoring
+
+[**Module 5**](#mod5): Network Configurations
+
+
 
 <a id='mod1'></a>
 ## Module 1: Autoscaling
@@ -31,7 +35,16 @@
 ```
 </details>
 
-
+<details>
+  <summary><b>Policies</b></summary>
+  
+  ```
+  1. CloudwatchAgentServerPolicy.json: designated actions are "cloudwatch:PutMetricData","ec2:DescribeVolumes","ec2:DescribeTags","logs:PutLogEvents","logs:DescribeLogStreams",                                        "logs:DescribeLogGroups", "logs:CreateLogStream","logs:CreateLogGroup"
+  2. assume_role_policy.json: designated action includes "AssumeRole"
+  3. s3-policy.json: designated action is to "GetObject"
+  
+  ```
+  </details>
 
 <a id='mod2'></a>
 ## Module 2: Application Load Balancer
@@ -75,7 +88,9 @@
   <summary><b>Variables</b></summary>
   
 ```
-  
+ 1. vpc_asg
+ 2. sec_group_rds 
+ 3. subnet_rds
 ```
 </details>
 
@@ -83,23 +98,38 @@
   <summary><b>Secrets</b></summary>
   
 ```
- 1.  Username:
- 2.  Password:
+  Username and Password 
 
 ```
 </details>
 
-<details>
-  <summary><b>Outputs</b></summary>
-  
-```
-
-```
-</details>
 
 
 <a id='mod4'></a>
-## Module 4: Network Configurations
+## Module 4: Monitoring
+<details>
+  <summary><b>Variables</b></summary>
+  
+  ```
+  1. subnet_monitoring_instance
+  2. vpc_security_group_monitoring
+  
+  ```
+  </details>
+  
+  <details>
+  <summary><b>Policies</b></summary>
+  
+  ```
+  1. assume_role_policy.json: designated Action has been to "AssumeRole" with acquired service "ec2.amazonaws.com"
+  2. cw-policy.json: designated actions are "ListMetrics","GetMetricStatistics","GetMetricData"
+  3. s3-policy.json:  designated actions are "PutObject", "GetObject" by S3 via Resource "aws:s3:::grafana-files-sg/*"
+  ```
+  </details>
+
+
+<a id='mod5'></a>
+## Module 5: Network Configurations
 
 <a href="https://img.shields.io/badge/vpc-v3.2.0-red">
 <img src="https://img.shields.io/badge/vpc-v3.2.0-red" /></a>
@@ -133,10 +163,4 @@
 ```
 </details>
 
-## Monitoring 
-Prometheus is an open source monitoring system for which Grafana provides out-of-the-box support. 
-Grafana supports querying Prometheus.
 
-- The main.tf file provides the detailed information about ingress and egress operations.
-- In the user-data.sh file you'll get a deep insight of the configurations being made in order to enable Prometheus and Grafana.
-- Thereby script mentions the various executions
