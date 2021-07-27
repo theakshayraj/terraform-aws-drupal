@@ -80,7 +80,7 @@ online and be available quickly. It not only simplifies deployment of new instan
 an Auto Scaling group and is responding to a spike in load. If the instance takes too long to be ready, it defeats the purpose of dynamic scaling.
 
 
-### MODULE WORKFLOW
+## MODULE WORKFLOW
 
 
 
@@ -97,9 +97,8 @@ an Auto Scaling group and is responding to a spike in load. If the instance take
 ```
 
 ## MAKE Command: 
-
-Makefile command is used in order to "tell what to do".
-Herein we've been using make to build AMI. Detailed usage is listed in the AMI section above.
+`make` command is used in order to "tell what to do". 
+Herein we've been using `make` to running all commands with a single tool. Detailed usage is listed in the Makefile.
 
 ## Summary of Resources
 -  3 Security Groups
