@@ -95,12 +95,20 @@
 </details>
 
 <details>
-  <summary><b>Secrets</b></summary>
-  
-```
-  Username and Password 
+  <summary><b>Secrets manager</b></summary>
 
+  We have used secret manager to store our secrets explicitly.To in order to use own secrets you can use the following keys.
+
+```bash
+| Secret-id          |   login-key      |  Pass-Key       |
+|----------          |:-------------:   |------:          |
+|drupal-login        |    username      |   pass          |
+| drupal-master-key  |    master-user   |   masterpass    |
+| sql-key            |    sql-user      |   sql-pass      |
 ```
+  
+   
+
 </details>
 
 
