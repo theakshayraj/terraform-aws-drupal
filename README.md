@@ -83,6 +83,14 @@ can then be used to launch new instances with all software and configuration pre
 online and be available quickly. It not only simplifies deployment of new instances but is especially useful when an instance is part of 
 an Auto Scaling group and is responding to a spike in load. If the instance takes too long to be ready, it defeats the purpose of dynamic scaling.
 
+## DRUPAL
+Drupal login page installed using composer and drush.
+
+#### Composer 
+can be used to manage Drupal and all dependencies (modules, themes, libraries).
+#### Drush 
+Drush is a command line shell and Unix scripting interface for Drupal.
+
 
 ## MODULE WORKFLOW
 
